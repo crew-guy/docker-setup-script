@@ -15,6 +15,6 @@ yes Y | sudo apt-get install docker-ce docker-ce-cli containerd.io
 curl -SL https://github.com/docker/compose/releases/download/v2.4.1/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 sudo docker login -u ankit1841 -p anA56sz3*D101
+sudo apt-get install docker-compose-plugin
 sudo docker run -v
-sudo docker run --version
-sudo docker compose --help
+sudo docker compose version
