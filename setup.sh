@@ -17,4 +17,4 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo docker login -u ankit1841 -p anA56sz3*D101
 sudo docker run -v
 sudo docker run --version
-sudo docker-compose --version
+sudo docker compose --help
